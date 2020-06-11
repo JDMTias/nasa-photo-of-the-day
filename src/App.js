@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <h1>NASA</h1>
       {!nasaData ? 'Loading Image...':
-          <NasaApod img= {nasaData.hdurl} title= {nasaData.title} />}
+          <NasaApod img= {nasaData.hdurl} title= {nasaData.title} explanation = {nasaData.explanation}/>}
     </div>
   );
 }
